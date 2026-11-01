@@ -24,9 +24,11 @@ Open a terminal in the project folder and run:
 java -jar MasterOfReins.jar
 ```
 
-On Windows, you can also double-click `run.bat`.
+On Windows, you can also double-click `MasterOfReins.exe` or `run.bat`.
 
-Keep `MasterOfReins.jar`, `assets/`, and `asset-packs/` in the same folder. The game loads its map and images from these folders.
+Keep `MasterOfReins.jar`, `MasterOfReins.exe`, `assets/`, and `asset-packs/` in the same folder. The game loads its map and images from these folders.
+
+The `.exe` is a small launcher. It requires Java 17 or newer to be installed.
 
 ## How to Play
 
