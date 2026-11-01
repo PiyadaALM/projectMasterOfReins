@@ -1,6 +1,6 @@
 # Master of Reins
 
-A 2D side-scrolling horse racing game built with Java Swing.
+A 2D top-down racing game built with Java Swing.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ A 2D side-scrolling horse racing game built with Java Swing.
 Download this repository as a ZIP from GitHub, or clone it:
 
 ```text
-git clone https://github.com/YOUR_USERNAME/MasterOfReins.git
+git clone https://github.com/PiyadaALM/MasterOfReins.git
 ```
 
 Extract the ZIP if you downloaded it.
