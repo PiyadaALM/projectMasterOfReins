@@ -1,0 +1,153 @@
+{
+ "tile_size": 32,
+ "columns": 4,
+ "terrain_0": "base",
+ "terrain_1": "over",
+ "index_rule": "index = TL*8 + TR*4 + BL*2 + BR (1 = over terrain at that corner)",
+ "tiles": {
+  "sand__cracked_sand_0000.png": {
+   "index": 0,
+   "corners": {
+    "top_left": 0,
+    "top_right": 0,
+    "bottom_left": 0,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_0001.png": {
+   "index": 1,
+   "corners": {
+    "top_left": 0,
+    "top_right": 0,
+    "bottom_left": 0,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_0010.png": {
+   "index": 2,
+   "corners": {
+    "top_left": 0,
+    "top_right": 0,
+    "bottom_left": 1,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_0011.png": {
+   "index": 3,
+   "corners": {
+    "top_left": 0,
+    "top_right": 0,
+    "bottom_left": 1,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_0100.png": {
+   "index": 4,
+   "corners": {
+    "top_left": 0,
+    "top_right": 1,
+    "bottom_left": 0,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_0101.png": {
+   "index": 5,
+   "corners": {
+    "top_left": 0,
+    "top_right": 1,
+    "bottom_left": 0,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_0110.png": {
+   "index": 6,
+   "corners": {
+    "top_left": 0,
+    "top_right": 1,
+    "bottom_left": 1,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_0111.png": {
+   "index": 7,
+   "corners": {
+    "top_left": 0,
+    "top_right": 1,
+    "bottom_left": 1,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_1000.png": {
+   "index": 8,
+   "corners": {
+    "top_left": 1,
+    "top_right": 0,
+    "bottom_left": 0,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_1001.png": {
+   "index": 9,
+   "corners": {
+    "top_left": 1,
+    "top_right": 0,
+    "bottom_left": 0,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_1010.png": {
+   "index": 10,
+   "corners": {
+    "top_left": 1,
+    "top_right": 0,
+    "bottom_left": 1,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_1011.png": {
+   "index": 11,
+   "corners": {
+    "top_left": 1,
+    "top_right": 0,
+    "bottom_left": 1,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_1100.png": {
+   "index": 12,
+   "corners": {
+    "top_left": 1,
+    "top_right": 1,
+    "bottom_left": 0,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_1101.png": {
+   "index": 13,
+   "corners": {
+    "top_left": 1,
+    "top_right": 1,
+    "bottom_left": 0,
+    "bottom_right": 1
+   }
+  },
+  "sand__cracked_sand_1110.png": {
+   "index": 14,
+   "corners": {
+    "top_left": 1,
+    "top_right": 1,
+    "bottom_left": 1,
+    "bottom_right": 0
+   }
+  },
+  "sand__cracked_sand_1111.png": {
+   "index": 15,
+   "corners": {
+    "top_left": 1,
+    "top_right": 1,
+    "bottom_left": 1,
+    "bottom_right": 1
+   }
+  }
+ }
+}

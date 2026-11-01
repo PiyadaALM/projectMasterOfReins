@@ -1,0 +1,237 @@
+{
+ "tile_size": 32,
+ "columns": 5,
+ "corner_values": {
+  "l": "ground",
+  "u": "wall top",
+  "t": "wall face (front of the wall, under the top)"
+ },
+ "rule": "paint the wall top; the vertex row right under a wall top becomes 'wall face'; everything else is ground",
+ "tiles": {
+  "wooden_palisade_llll.png": {
+   "index": 0,
+   "corners": {
+    "top_left": "l",
+    "top_right": "l",
+    "bottom_left": "l",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_lllu.png": {
+   "index": 1,
+   "corners": {
+    "top_left": "l",
+    "top_right": "l",
+    "bottom_left": "l",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_lluu.png": {
+   "index": 2,
+   "corners": {
+    "top_left": "l",
+    "top_right": "l",
+    "bottom_left": "u",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_llul.png": {
+   "index": 3,
+   "corners": {
+    "top_left": "l",
+    "top_right": "l",
+    "bottom_left": "u",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_lulu.png": {
+   "index": 4,
+   "corners": {
+    "top_left": "l",
+    "top_right": "u",
+    "bottom_left": "l",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_ulul.png": {
+   "index": 5,
+   "corners": {
+    "top_left": "u",
+    "top_right": "l",
+    "bottom_left": "u",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_lulu_v2.png": {
+   "index": 6,
+   "corners": {
+    "top_left": "l",
+    "top_right": "u",
+    "bottom_left": "l",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_uluu.png": {
+   "index": 7,
+   "corners": {
+    "top_left": "u",
+    "top_right": "l",
+    "bottom_left": "u",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_luuu.png": {
+   "index": 8,
+   "corners": {
+    "top_left": "l",
+    "top_right": "u",
+    "bottom_left": "u",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_ulul_v2.png": {
+   "index": 9,
+   "corners": {
+    "top_left": "u",
+    "top_right": "l",
+    "bottom_left": "u",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_uuuu.png": {
+   "index": 10,
+   "corners": {
+    "top_left": "u",
+    "top_right": "u",
+    "bottom_left": "u",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_uuut.png": {
+   "index": 11,
+   "corners": {
+    "top_left": "u",
+    "top_right": "u",
+    "bottom_left": "u",
+    "bottom_right": "t"
+   }
+  },
+  "wooden_palisade_uutt.png": {
+   "index": 12,
+   "corners": {
+    "top_left": "u",
+    "top_right": "u",
+    "bottom_left": "t",
+    "bottom_right": "t"
+   }
+  },
+  "wooden_palisade_ultl.png": {
+   "index": 13,
+   "corners": {
+    "top_left": "u",
+    "top_right": "l",
+    "bottom_left": "t",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_utul.png": {
+   "index": 14,
+   "corners": {
+    "top_left": "u",
+    "top_right": "t",
+    "bottom_left": "u",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_ttll.png": {
+   "index": 15,
+   "corners": {
+    "top_left": "t",
+    "top_right": "t",
+    "bottom_left": "l",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_tlll.png": {
+   "index": 16,
+   "corners": {
+    "top_left": "t",
+    "top_right": "l",
+    "bottom_left": "l",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_lult.png": {
+   "index": 17,
+   "corners": {
+    "top_left": "l",
+    "top_right": "u",
+    "bottom_left": "l",
+    "bottom_right": "t"
+   }
+  },
+  "wooden_palisade_uutu.png": {
+   "index": 18,
+   "corners": {
+    "top_left": "u",
+    "top_right": "u",
+    "bottom_left": "t",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_ultu.png": {
+   "index": 19,
+   "corners": {
+    "top_left": "u",
+    "top_right": "l",
+    "bottom_left": "t",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_ltll.png": {
+   "index": 20,
+   "corners": {
+    "top_left": "l",
+    "top_right": "t",
+    "bottom_left": "l",
+    "bottom_right": "l"
+   }
+  },
+  "wooden_palisade_tulu.png": {
+   "index": 21,
+   "corners": {
+    "top_left": "t",
+    "top_right": "u",
+    "bottom_left": "l",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_tulu_v2.png": {
+   "index": 22,
+   "corners": {
+    "top_left": "t",
+    "top_right": "u",
+    "bottom_left": "l",
+    "bottom_right": "u"
+   }
+  },
+  "wooden_palisade_luut.png": {
+   "index": 23,
+   "corners": {
+    "top_left": "l",
+    "top_right": "u",
+    "bottom_left": "u",
+    "bottom_right": "t"
+   }
+  },
+  "wooden_palisade_utul_v2.png": {
+   "index": 24,
+   "corners": {
+    "top_left": "u",
+    "top_right": "t",
+    "bottom_left": "u",
+    "bottom_right": "l"
+   }
+  }
+ }
+}

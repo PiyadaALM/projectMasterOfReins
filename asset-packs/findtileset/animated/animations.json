@@ -1,0 +1,12 @@
+{
+ "prop_crystalbulb_glow_strip4.png": {
+  "source": "prop_crystalbulb.png",
+  "animation": "glow",
+  "frames": 4,
+  "frame_size": [
+   32,
+   32
+  ],
+  "ms_per_frame": 160
+ }
+}

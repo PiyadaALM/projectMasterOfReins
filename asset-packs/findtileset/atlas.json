@@ -1,0 +1,150 @@
+{
+ "tile_size": 32,
+ "columns": 4,
+ "tiles": {
+  "autumn-village/floor_dry_grass.png": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "autumn-village/floor_cobblestone.png": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "autumn-village/wall_fence_wooden.png": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "autumn-village/prop_pumpkin.png": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "bioluminescent-swamp/floor_pebbles.png": {
+   "x": 0,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "bioluminescent-swamp/floor_mossyroots.png": {
+   "x": 32,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "bioluminescent-swamp/wall_bark.png": {
+   "x": 64,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "bioluminescent-swamp/prop_crystalbulb.png": {
+   "x": 96,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "desert-ruins/floor_sand.png": {
+   "x": 0,
+   "y": 64,
+   "w": 32,
+   "h": 32
+  },
+  "desert-ruins/floor_cracked_sand.png": {
+   "x": 32,
+   "y": 64,
+   "w": 32,
+   "h": 32
+  },
+  "desert-ruins/wall_sandstone_short.png": {
+   "x": 64,
+   "y": 64,
+   "w": 32,
+   "h": 32
+  },
+  "desert-ruins/prop_ceramic_pot.png": {
+   "x": 96,
+   "y": 64,
+   "w": 32,
+   "h": 32
+  },
+  "glowing-crystal-cavern/floor_cracked_stone.png": {
+   "x": 0,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "glowing-crystal-cavern/floor_mossy_cave.png": {
+   "x": 32,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "glowing-crystal-cavern/wall_rough_stone.png": {
+   "x": 64,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "glowing-crystal-cavern/prop_stalagmite.png": {
+   "x": 96,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "snowy-mountain-pass/floor_snow-packed.png": {
+   "x": 0,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "snowy-mountain-pass/floor_rocky-path.png": {
+   "x": 32,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "snowy-mountain-pass/wall_cliff-rock.png": {
+   "x": 64,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "snowy-mountain-pass/prop_snow-boulder.png": {
+   "x": 96,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "medieval-town/floor_cobblestone.png": {
+   "x": 0,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "medieval-town/floor_grass.png": {
+   "x": 32,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "medieval-town/prop_barrel.png": {
+   "x": 64,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "medieval-town/prop_cart.png": {
+   "x": 96,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  }
+ }
+}

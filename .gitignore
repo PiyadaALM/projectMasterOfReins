@@ -1,0 +1,11 @@
+build/
+build-smoke/
+dist/
+*.class
+.idea/
+.vscode/
+*.tiled-session
+Thumbs.db
+.DS_Store
+*.psd
+*.zip

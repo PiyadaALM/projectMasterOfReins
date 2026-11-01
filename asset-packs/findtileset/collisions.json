@@ -1,0 +1,398 @@
+{
+ "tile_size": 32,
+ "format": "boxes are [x, y, width, height] in pixels from the image's top-left corner",
+ "rules": "(3/4 RPG view, characters must be able to walk BEHIND tall things):\n  floor_ tiles        none, except water/lava/acid floors (water, pool, lake, river, lava, acid, swampwater): full tile\n  edge_ / wall_ tiles full tile (barriers)\n  door_ tiles         none (passable)\n  prop_ tiles / kit props   the BASE only: the lower 40% of the visible pixels\n  kit buildings       the base: the lower 50% of the visible pixels (whole PNG and every cut tile)\n  wall autotiles      the 16x16 quadrants whose corner is wall top or wall face\n  wall gates          the two side posts (left and right 2 columns, lower 2 rows); the 2 middle columns stay open\n  transitions         quadrants of a water terrain",
+ "tiles": {
+  "tiles/autumn-village/floor_dry_grass.png": [],
+  "tiles/autumn-village/floor_cobblestone.png": [],
+  "tiles/autumn-village/wall_fence_wooden.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "tiles/autumn-village/prop_pumpkin.png": [
+   [
+    5,
+    18,
+    17,
+    9
+   ]
+  ],
+  "tiles/bioluminescent-swamp/floor_pebbles.png": [],
+  "tiles/bioluminescent-swamp/floor_mossyroots.png": [],
+  "tiles/bioluminescent-swamp/wall_bark.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "tiles/bioluminescent-swamp/prop_crystalbulb.png": [
+   [
+    13,
+    18,
+    6,
+    8
+   ]
+  ],
+  "tiles/desert-ruins/floor_sand.png": [],
+  "tiles/desert-ruins/floor_cracked_sand.png": [],
+  "tiles/desert-ruins/wall_sandstone_short.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "tiles/desert-ruins/prop_ceramic_pot.png": [
+   [
+    10,
+    19,
+    12,
+    11
+   ]
+  ],
+  "tiles/glowing-crystal-cavern/floor_cracked_stone.png": [],
+  "tiles/glowing-crystal-cavern/floor_mossy_cave.png": [],
+  "tiles/glowing-crystal-cavern/wall_rough_stone.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "tiles/glowing-crystal-cavern/prop_stalagmite.png": [
+   [
+    8,
+    19,
+    17,
+    11
+   ]
+  ],
+  "tiles/snowy-mountain-pass/floor_snow-packed.png": [],
+  "tiles/snowy-mountain-pass/floor_rocky-path.png": [],
+  "tiles/snowy-mountain-pass/wall_cliff-rock.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "tiles/snowy-mountain-pass/prop_snow-boulder.png": [
+   [
+    6,
+    19,
+    20,
+    10
+   ]
+  ],
+  "tiles/medieval-town/floor_cobblestone.png": [],
+  "tiles/medieval-town/floor_grass.png": [],
+  "tiles/medieval-town/prop_barrel.png": [
+   [
+    8,
+    19,
+    16,
+    10
+   ]
+  ],
+  "tiles/medieval-town/prop_cart.png": [
+   [
+    11,
+    19,
+    11,
+    10
+   ]
+  ]
+ },
+ "walls": {
+  "walls/wooden_palisade/tiles/wooden_palisade_llll.png": [],
+  "walls/wooden_palisade/tiles/wooden_palisade_lllu.png": [
+   [
+    16,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_lluu.png": [
+   [
+    0,
+    16,
+    32,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_llul.png": [
+   [
+    0,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_lulu.png": [
+   [
+    16,
+    0,
+    16,
+    16
+   ],
+   [
+    16,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_ulul.png": [
+   [
+    0,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_lulu_v2.png": [
+   [
+    16,
+    0,
+    16,
+    16
+   ],
+   [
+    16,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_uluu.png": [
+   [
+    0,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    32,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_luuu.png": [
+   [
+    16,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    32,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_ulul_v2.png": [
+   [
+    0,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_uuuu.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_uuut.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_uutt.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_ultl.png": [
+   [
+    0,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_utul.png": [
+   [
+    0,
+    0,
+    32,
+    16
+   ],
+   [
+    0,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_ttll.png": [
+   [
+    0,
+    0,
+    32,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_tlll.png": [
+   [
+    0,
+    0,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_lult.png": [
+   [
+    16,
+    0,
+    16,
+    16
+   ],
+   [
+    16,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_uutu.png": [
+   [
+    0,
+    0,
+    32,
+    32
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_ultu.png": [
+   [
+    0,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    32,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_ltll.png": [
+   [
+    16,
+    0,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_tulu.png": [
+   [
+    0,
+    0,
+    32,
+    16
+   ],
+   [
+    16,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_tulu_v2.png": [
+   [
+    0,
+    0,
+    32,
+    16
+   ],
+   [
+    16,
+    16,
+    16,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_luut.png": [
+   [
+    16,
+    0,
+    16,
+    16
+   ],
+   [
+    0,
+    16,
+    32,
+    16
+   ]
+  ],
+  "walls/wooden_palisade/tiles/wooden_palisade_utul_v2.png": [
+   [
+    0,
+    0,
+    32,
+    16
+   ],
+   [
+    0,
+    16,
+    16,
+    16
+   ]
+  ]
+ },
+ "gates": {},
+ "transitions": {},
+ "props": {},
+ "buildings": {}
+}
